@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>java-hello-world</artifactId>
+        <groupId>com.colin</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>hello-netty</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>Netty :: Parent</name>
+
+    <properties>
+        <netty-all.version>4.1.42.Final</netty-all.version>
+    </properties>
+
+    <modules>
+        <module>netty-hello-world</module>
+        <module>netty-http</module>
+        <module>netty-im</module>
+    </modules>
+</project>
