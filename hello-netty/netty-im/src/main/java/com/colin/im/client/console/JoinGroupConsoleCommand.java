@@ -3,7 +3,6 @@ package com.colin.im.client.console;
 import com.colin.im.protocol.request.JoinGroupRequestPacket;
 import io.netty.channel.Channel;
 
-
 import java.util.Scanner;
 
 public class JoinGroupConsoleCommand implements ConsoleCommand {

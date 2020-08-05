@@ -1,4 +1,5 @@
 package com.colin.netty.pojo;
+
 import lombok.Data;
 
 import java.util.Date;

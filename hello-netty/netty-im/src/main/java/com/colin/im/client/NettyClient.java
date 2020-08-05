@@ -1,14 +1,13 @@
 package com.colin.im.client;
 
+import com.colin.im.client.console.ConsoleCommandManager;
+import com.colin.im.client.console.LoginConsoleCommand;
 import com.colin.im.client.handler.*;
 import com.colin.im.codec.PacketDecoder;
 import com.colin.im.codec.PacketEncoder;
 import com.colin.im.codec.Spliter;
-import com.colin.im.util.SessionUtil;
-import com.colin.im.client.console.ConsoleCommandManager;
-import com.colin.im.client.console.LoginConsoleCommand;
-import com.sanshengshui.im.client.handler.*;
 import com.colin.im.handler.IMIdleStateHandler;
+import com.colin.im.util.SessionUtil;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;

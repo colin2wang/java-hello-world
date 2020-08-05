@@ -19,7 +19,7 @@ public class HttpHelloWorldServerInitializer extends ChannelInitializer<SocketCh
         /**
          * 在处理POST消息体时需要加上
          */
-        p.addLast(new HttpObjectAggregator(1024*1024));
+        p.addLast(new HttpObjectAggregator(1024 * 1024));
         p.addLast(new HttpServerExpectContinueHandler());
         p.addLast(new HttpHelloWorldServerHandler());
     }

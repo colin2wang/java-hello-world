@@ -1,7 +1,7 @@
 package com.colin.im.client.handler;
 
-import com.colin.im.util.SessionUtil;
 import com.colin.im.protocol.response.LogoutResponsePacket;
+import com.colin.im.util.SessionUtil;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 

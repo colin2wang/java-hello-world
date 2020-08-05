@@ -1,7 +1,7 @@
 package com.colin.im.client.handler;
 
-import com.colin.im.session.Session;
 import com.colin.im.protocol.response.GroupMessageResponsePacket;
+import com.colin.im.session.Session;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 

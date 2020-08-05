@@ -3,7 +3,6 @@ package com.colin.im.client.console;
 import com.colin.im.protocol.request.MessageRequestPacket;
 import io.netty.channel.Channel;
 
-
 import java.util.Scanner;
 
 public class SendToUserConsoleCommand implements ConsoleCommand {

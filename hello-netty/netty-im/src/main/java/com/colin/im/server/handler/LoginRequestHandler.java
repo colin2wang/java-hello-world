@@ -1,14 +1,13 @@
 package com.colin.im.server.handler;
 
+import com.colin.im.protocol.request.LoginRequestPacket;
+import com.colin.im.protocol.response.LoginResponsePacket;
 import com.colin.im.session.Session;
 import com.colin.im.util.IDUtil;
 import com.colin.im.util.SessionUtil;
-import com.colin.im.protocol.request.LoginRequestPacket;
-import com.colin.im.protocol.response.LoginResponsePacket;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-
 
 import java.util.Date;
 

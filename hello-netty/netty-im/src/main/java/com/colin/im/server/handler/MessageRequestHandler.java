@@ -1,9 +1,9 @@
 package com.colin.im.server.handler;
 
-import com.colin.im.session.Session;
-import com.colin.im.util.SessionUtil;
 import com.colin.im.protocol.request.MessageRequestPacket;
 import com.colin.im.protocol.response.MessageResponsePacket;
+import com.colin.im.session.Session;
+import com.colin.im.util.SessionUtil;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;

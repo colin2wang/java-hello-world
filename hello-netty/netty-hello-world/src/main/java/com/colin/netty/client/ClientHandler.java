@@ -1,9 +1,9 @@
 package com.colin.netty.client;
 
 
+import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import io.netty.channel.ChannelHandler.Sharable;
 
 @Sharable
 public class ClientHandler extends SimpleChannelInboundHandler<String> {

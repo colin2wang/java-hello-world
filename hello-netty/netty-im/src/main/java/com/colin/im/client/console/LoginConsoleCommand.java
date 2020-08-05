@@ -7,6 +7,13 @@ import java.util.Scanner;
 
 public class LoginConsoleCommand implements ConsoleCommand {
 
+    private static void waitForLoginResponse() {
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ignored) {
+        }
+    }
+
     @Override
     public void exec(Scanner scanner, Channel channel) {
         LoginRequestPacket loginRequestPacket = new LoginRequestPacket();
@@ -18,12 +25,5 @@ public class LoginConsoleCommand implements ConsoleCommand {
         // 发送登录数据包
         channel.writeAndFlush(loginRequestPacket);
         waitForLoginResponse();
-    }
-
-    private static void waitForLoginResponse() {
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException ignored) {
-        }
     }
 }

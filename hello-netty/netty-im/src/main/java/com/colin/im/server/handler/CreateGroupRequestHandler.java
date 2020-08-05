@@ -1,16 +1,15 @@
 package com.colin.im.server.handler;
 
-import com.colin.im.util.IDUtil;
-import com.colin.im.util.SessionUtil;
 import com.colin.im.protocol.request.CreateGroupRequestPacket;
 import com.colin.im.protocol.response.CreateGroupResponsePacket;
+import com.colin.im.util.IDUtil;
+import com.colin.im.util.SessionUtil;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.channel.group.ChannelGroup;
 import io.netty.channel.group.DefaultChannelGroup;
-
 
 import java.util.ArrayList;
 import java.util.List;

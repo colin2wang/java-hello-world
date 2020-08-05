@@ -4,7 +4,7 @@ package com.colin.im.serialize;
  * @author james mu
  * @date 18-12-3 下午3:24
  */
-public interface   SerializerAlgorithm {
+public interface SerializerAlgorithm {
     /**
      * json 序列化
      */

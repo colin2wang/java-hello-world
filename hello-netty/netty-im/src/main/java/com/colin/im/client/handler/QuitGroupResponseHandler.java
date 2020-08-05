@@ -5,7 +5,6 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
 
-
 public class QuitGroupResponseHandler extends SimpleChannelInboundHandler<QuitGroupResponsePacket> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, QuitGroupResponsePacket responsePacket) {

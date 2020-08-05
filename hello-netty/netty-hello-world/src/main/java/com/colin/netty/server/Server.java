@@ -12,12 +12,12 @@ import io.netty.handler.logging.LoggingHandler;
  * @author WangBing
  */
 public final class Server {
-    public  static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
             ServerBootstrap b = new ServerBootstrap();
-            b.group(bossGroup,workerGroup)
+            b.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .handler(new LoggingHandler(LogLevel.INFO))
                     .childHandler(new ServerInitializer());

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -13,6 +13,7 @@
     <artifactId>hello-netty</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>Netty :: Parent</name>
+    <packaging>pom</packaging>
 
     <properties>
         <netty-all.version>4.1.42.Final</netty-all.version>
@@ -22,5 +23,7 @@
         <module>netty-hello-world</module>
         <module>netty-http</module>
         <module>netty-im</module>
+        <module>netty-iot</module>
+        <module>netty-rpc</module>
     </modules>
 </project>

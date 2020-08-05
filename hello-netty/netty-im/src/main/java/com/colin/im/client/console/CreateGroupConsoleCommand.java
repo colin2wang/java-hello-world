@@ -3,7 +3,6 @@ package com.colin.im.client.console;
 import com.colin.im.protocol.request.CreateGroupRequestPacket;
 import io.netty.channel.Channel;
 
-
 import java.util.Arrays;
 import java.util.Scanner;
 
