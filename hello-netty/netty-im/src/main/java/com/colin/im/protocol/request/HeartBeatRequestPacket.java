@@ -1,6 +1,5 @@
 package com.colin.im.protocol.request;
 
-
 import com.colin.im.protocol.Packet;
 import com.colin.im.protocol.command.Command;
 

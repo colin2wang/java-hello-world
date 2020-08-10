@@ -2,10 +2,8 @@ package com.colin.im.protocol.request;
 
 import com.colin.im.protocol.Packet;
 import com.colin.im.protocol.command.Command;
-import lombok.Data;
 
 
-@Data
 public class JoinGroupRequestPacket extends Packet {
 
     private String groupId;
@@ -14,5 +12,13 @@ public class JoinGroupRequestPacket extends Packet {
     public Byte getCommand() {
 
         return Command.JOIN_GROUP_REQUEST;
+    }
+
+    public String getGroupId() {
+        return groupId;
+    }
+
+    public void setGroupId(String groupId) {
+        this.groupId = groupId;
     }
 }

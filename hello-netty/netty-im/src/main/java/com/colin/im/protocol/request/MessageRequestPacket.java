@@ -2,12 +2,7 @@ package com.colin.im.protocol.request;
 
 import com.colin.im.protocol.Packet;
 import com.colin.im.protocol.command.Command;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
-
-@Data
-@NoArgsConstructor
 public class MessageRequestPacket extends Packet {
     private String toUserId;
     private String message;
@@ -20,5 +15,21 @@ public class MessageRequestPacket extends Packet {
     @Override
     public Byte getCommand() {
         return Command.MESSAGE_REQUEST;
+    }
+
+    public String getToUserId() {
+        return toUserId;
+    }
+
+    public void setToUserId(String toUserId) {
+        this.toUserId = toUserId;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
