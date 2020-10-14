@@ -1,7 +1,7 @@
-package com.colin.netty.serialize.impl;
+package com.colin.java.serialize.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.colin.netty.serialize.Serializer;
+import com.colin.java.serialize.Serializer;
 
 /**
  * @author WangBing

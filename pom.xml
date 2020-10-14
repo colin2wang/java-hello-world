@@ -18,6 +18,7 @@
     <modules>
         <module>hello-netty</module>
         <module>spring-boot-parent</module>
+        <module>hello-java</module>
     </modules>
 
     <build>

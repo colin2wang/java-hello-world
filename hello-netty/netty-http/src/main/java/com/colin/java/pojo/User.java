@@ -1,4 +1,4 @@
-package com.colin.netty.pojo;
+package com.colin.java.pojo;
 
 import java.util.Date;
 

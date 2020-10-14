@@ -1,4 +1,4 @@
-package com.colin.netty.server;
+package com.colin.java.server;
 
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
@@ -23,7 +23,7 @@ public class ServerHandler extends SimpleChannelInboundHandler<String> {
     }
 
     @Override
-    public void channelRead0(ChannelHandlerContext ctx, String request) throws Exception {
+    public void channelRead0(ChannelHandlerContext ctx, String request) {
         // Generate and write a response.
         String response;
         boolean close = false;

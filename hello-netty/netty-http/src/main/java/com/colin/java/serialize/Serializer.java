@@ -1,4 +1,4 @@
-package com.colin.netty.serialize;
+package com.colin.java.serialize;
 
 /**
  * 序列化接口类

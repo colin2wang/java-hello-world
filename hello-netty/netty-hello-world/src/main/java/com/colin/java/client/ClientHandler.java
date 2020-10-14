@@ -1,4 +1,4 @@
-package com.colin.netty.client;
+package com.colin.java.client;
 
 
 import io.netty.channel.ChannelHandler.Sharable;
@@ -8,7 +8,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 @Sharable
 public class ClientHandler extends SimpleChannelInboundHandler<String> {
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
+    protected void channelRead0(ChannelHandlerContext ctx, String msg) {
         System.err.println(msg);
     }
 

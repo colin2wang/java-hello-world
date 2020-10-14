@@ -1,10 +1,10 @@
-package com.colin.netty;
+package com.colin.java;
 
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.colin.netty.pojo.User;
-import com.colin.netty.serialize.impl.JSONSerializer;
+import com.colin.java.pojo.User;
+import com.colin.java.serialize.impl.JSONSerializer;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
@@ -135,7 +135,7 @@ public class HttpHelloWorldServerHandler extends SimpleChannelInboundHandler<Htt
     }
 
     private String getContentType() {
-        String typeStr = headers.get("Content-Type").toString();
+        String typeStr = headers.get("Content-Type");
         String[] list = typeStr.split(";");
         return list[0];
     }

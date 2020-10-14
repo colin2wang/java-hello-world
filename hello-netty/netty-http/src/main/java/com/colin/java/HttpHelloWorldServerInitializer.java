@@ -1,4 +1,4 @@
-package com.colin.netty;
+package com.colin.java;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
