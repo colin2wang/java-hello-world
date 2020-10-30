@@ -11,7 +11,7 @@
 
     <artifactId>netty-im</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Netty :: IM</name>
+    <name>Hello Netty :: IM</name>
     <packaging>jar</packaging>
 
     <properties>
@@ -30,6 +30,11 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
         </dependency>
     </dependencies>
 </project>

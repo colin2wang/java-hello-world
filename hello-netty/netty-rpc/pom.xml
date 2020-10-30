@@ -5,14 +5,14 @@
 
     <parent>
         <groupId>com.colin</groupId>
-        <artifactId>java-hello-world-spring-boot-parent</artifactId>
+        <artifactId>common-spring-boot</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <artifactId>netty-rpc</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Netty :: Rpc</name>
+    <name>Hello Netty :: Rpc</name>
     <packaging>jar</packaging>
 
     <properties>

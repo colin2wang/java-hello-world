@@ -4,8 +4,6 @@ import com.colin.im.protocol.request.*;
 import com.colin.im.protocol.response.*;
 import com.colin.im.serialize.Serializer;
 import com.colin.im.serialize.impl.JSONSerializer;
-import com.sanshengshui.im.protocol.request.*;
-import com.sanshengshui.im.protocol.response.*;
 import io.netty.buffer.ByteBuf;
 
 import java.util.HashMap;

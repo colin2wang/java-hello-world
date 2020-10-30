@@ -10,20 +10,26 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>hello-netty</artifactId>
+    <artifactId>hello-http</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Hello Netty :: Parent</name>
-    <packaging>pom</packaging>
+    <name>Hello HTTP</name>
 
     <properties>
-        <netty-all.version>4.1.42.Final</netty-all.version>
+        <okhttp.version>4.9.0</okhttp.version>
     </properties>
 
-    <modules>
-        <module>netty-hello-world</module>
-        <module>netty-http</module>
-        <module>netty-im</module>
-        <module>netty-iot</module>
-        <module>netty-rpc</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp-tls</artifactId>
+            <version>${okhttp.version}</version>
+        </dependency>
+
+    </dependencies>
 </project>

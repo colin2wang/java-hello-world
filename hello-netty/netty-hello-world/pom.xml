@@ -11,7 +11,7 @@
 
     <artifactId>netty-hello-world</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Netty :: HelloWorld</name>
+    <name>Hello Netty :: HelloWorld</name>
     <packaging>jar</packaging>
 
     <dependencies>
